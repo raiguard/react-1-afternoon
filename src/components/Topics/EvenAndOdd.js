@@ -14,7 +14,7 @@ class EvenAndOdd extends Component {
       userInput: event.target.value
     });
   }
-  onConfirm(event) {
+  onConfirm() {
     const inputArr = this.state.userInput.split(",");
     const { evenArray, oddArray } = this.state;
 
@@ -41,7 +41,7 @@ class EvenAndOdd extends Component {
           onChange={(event) => this.onInputChange(event)}
           value={this.state.userInput}
         ></input>
-        <button className="confirmationButton" onClick={(event) => this.onConfirm(event)}>
+        <button className="confirmationButton" onClick={() => this.onConfirm()}>
           Submit
         </button>
         <span className="resultsBox">Evens: {JSON.stringify(this.state.evenArray)}</span>
