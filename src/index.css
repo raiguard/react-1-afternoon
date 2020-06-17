@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #303030;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
   border-radius: 2px;
   background-color: #303030;
   margin-top: 10px;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
@@ -96,7 +96,7 @@ body {
   border-radius: 2px;
   background-color: #4fc3f7;
   border: none;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
@@ -109,7 +109,7 @@ body {
 
 /* Text */
 h4 {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
@@ -118,7 +118,7 @@ h4 {
 }
 
 .puzzleText {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
