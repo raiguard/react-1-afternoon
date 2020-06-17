@@ -5,7 +5,7 @@ class FilterString extends Component {
     super();
     this.state = {
       unFilteredArray: [
-        "Why don't we all introduce yourselves!",
+        "Why don't we all introduce ourselves!",
         "My name is Joe, and I hate pie. With a passion.",
         "Theo isn't too bright - he literally fell off a cliff!",
         "I'm going to figuratively burn your house down, Jack."
