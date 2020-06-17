@@ -34,7 +34,7 @@ class FilterObject extends Component {
     return (
       <div className="puzzleBox filterObjectPB">
         <h4>Filter Object</h4>
-        <span className="puzzleText">Unfiltered: {JSON.stringify(this.state.unFilteredArray)}</span>
+        <span className="puzzleText">{JSON.stringify(this.state.unFilteredArray)}</span>
         <input
           className="inputLine"
           onChange={(event) => this.onInputChange(event)}
@@ -43,7 +43,7 @@ class FilterObject extends Component {
         <button className="confirmationButton" onClick={() => this.onSubmit()}>
           Filter
         </button>
-        <span className="resultsBox filterObjectRB">Filtered: {JSON.stringify(this.state.filteredArray)}</span>
+        <span className="resultsBox filterObjectRB">{JSON.stringify(this.state.filteredArray)}</span>
       </div>
     );
   }
