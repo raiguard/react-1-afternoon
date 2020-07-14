@@ -21,7 +21,7 @@ class FilterString extends Component {
     let filteredArray = [];
     const { unFilteredArray, userInput } = this.state;
 
-    unFilteredArray.forEach((sentence) => (sentence.includes(userInput) ? null : filteredArray.push(sentence)));
+    unFilteredArray.forEach((sentence) => (sentence.includes(userInput) ? filteredArray.push(sentence) : null));
 
     this.setState({ filteredArray, unFilteredArray, userInput });
   }
